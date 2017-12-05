@@ -1,0 +1,27 @@
+# == Schema Information
+#
+# Table name: leavees
+#
+#  id              :integer          not null, primary key
+#  leave_from_date :date
+#  leave_to_date   :date
+#  reason          :text
+#  no_of_days      :string
+#  created_at      :datetime         not null
+#  updated_at      :datetime         not null
+#  employee_id     :integer
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  leave_from_date: 2017-12-05
+  leave_to_date: 2017-12-05
+  reason: MyText
+  no_of_days: MyString
+
+two:
+  leave_from_date: 2017-12-05
+  leave_to_date: 2017-12-05
+  reason: MyText
+  no_of_days: MyString

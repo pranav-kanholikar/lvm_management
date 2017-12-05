@@ -1,0 +1,42 @@
+# == Schema Information
+#
+# Table name: employees
+#
+#  id                  :integer          not null, primary key
+#  first_name          :string
+#  last_name           :string
+#  date_of_joining     :date
+#  date_of_termination :date
+#  manager             :string
+#  designation         :string
+#  department          :string
+#  active              :boolean          default(TRUE)
+#  lead                :string
+#  created_at          :datetime         not null
+#  updated_at          :datetime         not null
+#  employer_id         :integer
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  first_name: MyString
+  last_name: MyString
+  date_of_joining: 2017-12-05
+  date_of_termination: 2017-12-05
+  manager: MyString
+  designation: MyString
+  department: MyString
+  active: false
+  lead: MyString
+
+two:
+  first_name: MyString
+  last_name: MyString
+  date_of_joining: 2017-12-05
+  date_of_termination: 2017-12-05
+  manager: MyString
+  designation: MyString
+  department: MyString
+  active: false
+  lead: MyString

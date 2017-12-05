@@ -1,0 +1,2 @@
+module LeaveesHelper
+end
